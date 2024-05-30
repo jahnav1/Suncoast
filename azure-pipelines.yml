@@ -1,0 +1,31 @@
+trigger:
+  branches:
+    include:
+    - main
+  paths:
+    include:
+    - src/Accounting_SupplierEFTEmail/project.json
+
+pool:
+  vmImage: windows-latest
+
+steps:
+
+- task: UiPathInstallPlatform@4
+  inputs:
+    cliVersion: 'WIN_23.10.8753.32995'
+
+- task: UiPathPack@4
+  inputs:
+    versionType: 'CurrentVersion'
+    projectJsonPath: '$(Build.SourcesDirectory)\src\Accounting_SupplierEFTEmail\project.json'
+    splitOutput: false
+    orchestratorConnection: 'Automation Cloud Dev'
+    outputPath: '$(Build.ArtifactStagingDirectory)\Output'
+    traceLevel: 'Verbose'
+
+- task: PublishPipelineArtifact@1
+  inputs:
+    targetPath: '$(Build.ArtifactStagingDirectory)\Output'
+    artifact: '_output'
+    publishLocation: 'pipeline'

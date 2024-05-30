@@ -7,7 +7,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1123,1432</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>825.2,1392.4</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="96">
@@ -175,7 +175,7 @@
       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Flowchart sap:VirtualizedContainerService.HintSize="835,1367" sap2010:WorkflowViewState.IdRef="Flowchart_2">
+  <Flowchart sap:VirtualizedContainerService.HintSize="834.8,1367.2" sap2010:WorkflowViewState.IdRef="Flowchart_2">
     <Flowchart.Variables>
       <Variable x:TypeArguments="ue:IWorkbookQuickHandle" Default="[new WorkbookQuickHandle(workbookPath:=&quot;Project_Notebook.xlsx&quot;,visible:=True,autoSave:=False,createNew:=True,readOnly:=False,isWorkspace:=True)]" Name="Notes" />
       <Variable x:TypeArguments="x:String" Name="EmailContent2">
@@ -235,7 +235,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsPinned">False</x:Boolean>
         <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
-        <av:Size x:Key="ShapeSize">60,75</av:Size>
+        <av:Size x:Key="ShapeSize">60,75.2</av:Size>
         <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,104</av:PointCollection>
         <x:Double x:Key="Height">1330.5</x:Double>
         <x:Double x:Key="Width">801</x:Double>
@@ -248,11 +248,11 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">200,104</av:Point>
-          <av:Size x:Key="ShapeSize">200,52</av:Size>
+          <av:Size x:Key="ShapeSize">200,53.2</av:Size>
           <av:PointCollection x:Key="ConnectorLocation">300,156 300,184</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:BuildDataTable DataTable="[dt_companyList]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="BuildDataTable_4" TableInfo="&lt;NewDataSet&gt;&#xD;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xD;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xD;&#xA;      &lt;xs:complexType&gt;&#xD;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xD;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xD;&#xA;            &lt;xs:complexType&gt;&#xD;&#xA;              &lt;xs:sequence&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Company&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Address1&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Address2&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Address3&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Email&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;FriendlyName&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;/xs:sequence&gt;&#xD;&#xA;            &lt;/xs:complexType&gt;&#xD;&#xA;          &lt;/xs:element&gt;&#xD;&#xA;        &lt;/xs:choice&gt;&#xD;&#xA;      &lt;/xs:complexType&gt;&#xD;&#xA;    &lt;/xs:element&gt;&#xD;&#xA;  &lt;/xs:schema&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Company&gt;SCU Suncoast Credit Union&lt;/Company&gt;&#xD;&#xA;    &lt;Address1&gt;6801 E. Hillsborough Ave.&lt;/Address1&gt;&#xD;&#xA;    &lt;Address2&gt;Tampa, FL 33610&lt;/Address2&gt;&#xD;&#xA;    &lt;Address3 /&gt;&#xD;&#xA;    &lt;Email&gt;A&lt;/Email&gt;&#xD;&#xA;    &lt;FriendlyName&gt;Suncoast Credit Union&lt;/FriendlyName&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Company&gt;MIC Members Insurance Center, LLC&lt;/Company&gt;&#xD;&#xA;    &lt;Address1&gt;6810 E. Hillsborough Ave.&lt;/Address1&gt;&#xD;&#xA;    &lt;Address2&gt;Tampa, FL 33610&lt;/Address2&gt;&#xD;&#xA;    &lt;Address3 /&gt;&#xD;&#xA;    &lt;Email&gt;C&lt;/Email&gt;&#xD;&#xA;    &lt;FriendlyName&gt;Members Insurance Center, LLC&lt;/FriendlyName&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Company&gt;MTA Members Title Agency, LLC&lt;/Company&gt;&#xD;&#xA;    &lt;Address1&gt;6810 E. Hillsborough Ave.&lt;/Address1&gt;&#xD;&#xA;    &lt;Address2&gt;Tampa, FL 33610&lt;/Address2&gt;&#xD;&#xA;    &lt;Address3 /&gt;&#xD;&#xA;    &lt;Email&gt;A&lt;/Email&gt;&#xD;&#xA;    &lt;FriendlyName&gt;Members Title Agency, LLC&lt;/FriendlyName&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Company&gt;SCDS Suncoast Community Development Solutions, LLC&lt;/Company&gt;&#xD;&#xA;    &lt;Address1&gt;6810 E. Hillsborough Ave.&lt;/Address1&gt;&#xD;&#xA;    &lt;Address2&gt;Tampa, FL 33610&lt;/Address2&gt;&#xD;&#xA;    &lt;Address3 /&gt;&#xD;&#xA;    &lt;Email&gt;C&lt;/Email&gt;&#xD;&#xA;    &lt;FriendlyName&gt;Suncoast Community Development Solutions, LLC&lt;/FriendlyName&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Company&gt;SCUF Suncoast Credit Union Foundation&lt;/Company&gt;&#xD;&#xA;    &lt;Address1&gt;6810 E. Hillsborough Ave.&lt;/Address1&gt;&#xD;&#xA;    &lt;Address2&gt;Tampa, FL 33610&lt;/Address2&gt;&#xD;&#xA;    &lt;Address3 /&gt;&#xD;&#xA;    &lt;Email&gt;C&lt;/Email&gt;&#xD;&#xA;    &lt;FriendlyName&gt;Suncoast Credit Union Foundation&lt;/FriendlyName&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Company&gt;SRS Suncoast Realty Solutions, LLC&lt;/Company&gt;&#xD;&#xA;    &lt;Address1&gt;6810 E. Hillsborough Ave.&lt;/Address1&gt;&#xD;&#xA;    &lt;Address2&gt;Tampa, FL 33610&lt;/Address2&gt;&#xD;&#xA;    &lt;Address3 /&gt;&#xD;&#xA;    &lt;Email&gt;C&lt;/Email&gt;&#xD;&#xA;    &lt;FriendlyName&gt;Suncoast Realty Solutions, LLC&lt;/FriendlyName&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;&lt;/NewDataSet&gt;">
+      <ui:BuildDataTable DataTable="[dt_companyList]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="BuildDataTable_4" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;Company&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Address1&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Address2&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Address3&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Email&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;FriendlyName&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Company&gt;SCU Suncoast Credit Union&lt;/Company&gt;&#xA;    &lt;Address1&gt;6801 E. Hillsborough Ave.&lt;/Address1&gt;&#xA;    &lt;Address2&gt;Tampa, FL 33610&lt;/Address2&gt;&#xA;    &lt;Address3 /&gt;&#xA;    &lt;Email&gt;A&lt;/Email&gt;&#xA;    &lt;FriendlyName&gt;Suncoast Credit Union&lt;/FriendlyName&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Company&gt;MIC Members Insurance Center, LLC&lt;/Company&gt;&#xA;    &lt;Address1&gt;6810 E. Hillsborough Ave.&lt;/Address1&gt;&#xA;    &lt;Address2&gt;Tampa, FL 33610&lt;/Address2&gt;&#xA;    &lt;Address3 /&gt;&#xA;    &lt;Email&gt;C&lt;/Email&gt;&#xA;    &lt;FriendlyName&gt;Members Insurance Center, LLC&lt;/FriendlyName&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Company&gt;MTA Members Title Agency, LLC&lt;/Company&gt;&#xA;    &lt;Address1&gt;6810 E. Hillsborough Ave.&lt;/Address1&gt;&#xA;    &lt;Address2&gt;Tampa, FL 33610&lt;/Address2&gt;&#xA;    &lt;Address3 /&gt;&#xA;    &lt;Email&gt;A&lt;/Email&gt;&#xA;    &lt;FriendlyName&gt;Members Title Agency, LLC&lt;/FriendlyName&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Company&gt;SCDS Suncoast Community Development Solutions, LLC&lt;/Company&gt;&#xA;    &lt;Address1&gt;6810 E. Hillsborough Ave.&lt;/Address1&gt;&#xA;    &lt;Address2&gt;Tampa, FL 33610&lt;/Address2&gt;&#xA;    &lt;Address3 /&gt;&#xA;    &lt;Email&gt;C&lt;/Email&gt;&#xA;    &lt;FriendlyName&gt;Suncoast Community Development Solutions, LLC&lt;/FriendlyName&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Company&gt;SCUF Suncoast Credit Union Foundation&lt;/Company&gt;&#xA;    &lt;Address1&gt;6810 E. Hillsborough Ave.&lt;/Address1&gt;&#xA;    &lt;Address2&gt;Tampa, FL 33610&lt;/Address2&gt;&#xA;    &lt;Address3 /&gt;&#xA;    &lt;Email&gt;C&lt;/Email&gt;&#xA;    &lt;FriendlyName&gt;Suncoast Credit Union Foundation&lt;/FriendlyName&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Company&gt;SRS Suncoast Realty Solutions, LLC&lt;/Company&gt;&#xA;    &lt;Address1&gt;6810 E. Hillsborough Ave.&lt;/Address1&gt;&#xA;    &lt;Address2&gt;Tampa, FL 33610&lt;/Address2&gt;&#xA;    &lt;Address3 /&gt;&#xA;    &lt;Email&gt;C&lt;/Email&gt;&#xA;    &lt;FriendlyName&gt;Suncoast Realty Solutions, LLC&lt;/FriendlyName&gt;&#xA;  &lt;/TableName&gt;&#xA;&lt;/NewDataSet&gt;">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -264,7 +264,7 @@
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <av:Point x:Key="ShapeLocation">200,184</av:Point>
-              <av:Size x:Key="ShapeSize">200,52</av:Size>
+              <av:Size x:Key="ShapeSize">200,53.2</av:Size>
               <av:PointCollection x:Key="ConnectorLocation">300,236 300,264</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
@@ -342,7 +342,7 @@
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <av:Point x:Key="ShapeLocation">200,264</av:Point>
-                  <av:Size x:Key="ShapeSize">200,52</av:Size>
+                  <av:Size x:Key="ShapeSize">200,53.2</av:Size>
                   <av:PointCollection x:Key="ConnectorLocation">300,316 300,344</av:PointCollection>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
@@ -845,7 +845,7 @@
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <av:Point x:Key="ShapeLocation">200,344</av:Point>
-                      <av:Size x:Key="ShapeSize">200,52</av:Size>
+                      <av:Size x:Key="ShapeSize">200,53.2</av:Size>
                       <av:PointCollection x:Key="ConnectorLocation">300,396 300,439.5</av:PointCollection>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
@@ -861,7 +861,7 @@
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <av:Point x:Key="ShapeLocation">133,439.5</av:Point>
-                          <av:Size x:Key="ShapeSize">334,81</av:Size>
+                          <av:Size x:Key="ShapeSize">334,80.8</av:Size>
                           <av:PointCollection x:Key="ConnectorLocation">300,520.5 300,596.5</av:PointCollection>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
@@ -1988,7 +1988,7 @@ Amount Paid: " +  CurrentRow.ByField("Total Amount") +"
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               <av:Point x:Key="ShapeLocation">260.5,596.5</av:Point>
-                              <av:Size x:Key="ShapeSize">79,87</av:Size>
+                              <av:Size x:Key="ShapeSize">79.2,87.2</av:Size>
                               <av:PointCollection x:Key="FalseConnector">339.5,640 460,640 460,734</av:PointCollection>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
